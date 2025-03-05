@@ -14,4 +14,4 @@ function handleLogin(event) {
     }
 }
 
-document.getElementById('loginForm').addEventListener('submit', handleLogin);
+document.getElementById('login-form').addEventListener('submit', handleLogin);
