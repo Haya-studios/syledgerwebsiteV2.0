@@ -8,7 +8,8 @@ function handleLogin(event) {
     if (username && password) {
         // Simulate successful login
         localStorage.setItem('username', username);
-        window.location.href = 'chat.html'; // Redirect to chat interface
+        document.getElementById('login-container').style.display = 'none';
+        document.getElementById('chat-container').style.display = 'flex';
     } else {
         alert('Please enter both username and password.');
     }
